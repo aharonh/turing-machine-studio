@@ -12,6 +12,35 @@ A screenshot of the start position of the tape is shown below:
 
 ![turing machine studio initial view](resources/png/screenshot-1.png "Initial screen")
 
+The 22 rules of the EUC-1 algorithm are outlined below:
+
+```javascript
+let euc1RuleSet = new RuleSet([
+  new Rule({ forState: 0, whenRead: BinaryValues.Zero, transitionToState: 0, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 0, whenRead: BinaryValues.One, transitionToState: 1, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 1, whenRead: BinaryValues.Zero, transitionToState: 2, action: Actions.MoveRight, flipTapeValue: true }),
+  new Rule({ forState: 1, whenRead: BinaryValues.One, transitionToState: 1, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 2, whenRead: BinaryValues.Zero, transitionToState: 10, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 2, whenRead: BinaryValues.One, transitionToState: 3, action: Actions.MoveRight, flipTapeValue: true }),
+  new Rule({ forState: 3, whenRead: BinaryValues.Zero, transitionToState: 4, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 3, whenRead: BinaryValues.One, transitionToState: 3, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 4, whenRead: BinaryValues.Zero, transitionToState: 4, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 4, whenRead: BinaryValues.One, transitionToState: 5, action: Actions.MoveRight, flipTapeValue: true }),
+  new Rule({ forState: 5, whenRead: BinaryValues.Zero, transitionToState: 7, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 5, whenRead: BinaryValues.One, transitionToState: 6, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 6, whenRead: BinaryValues.Zero, transitionToState: 6, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 6, whenRead: BinaryValues.One, transitionToState: 1, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 7, whenRead: BinaryValues.Zero, transitionToState: 7, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 7, whenRead: BinaryValues.One, transitionToState: 8, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 8, whenRead: BinaryValues.Zero, transitionToState: 9, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 8, whenRead: BinaryValues.One, transitionToState: 8, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 9, whenRead: BinaryValues.Zero, transitionToState: 2, action: Actions.MoveRight, flipTapeValue: false }),
+  new Rule({ forState: 9, whenRead: BinaryValues.One, transitionToState: 1, action: Actions.MoveLeft, flipTapeValue: false }),
+  new Rule({ forState: 10, whenRead: BinaryValues.Zero, transitionToState: 0, action: Actions.Halt, flipTapeValue: false }),
+  new Rule({ forState: 10, whenRead: BinaryValues.One, transitionToState: 10, action: Actions.MoveRight, flipTapeValue: false }),
+]);
+```
+
 ## License information
 
 The project is licensed under the Apache license, version 2.0. The full license text may be seen [here](LICENSE.txt). 

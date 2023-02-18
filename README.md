@@ -28,5 +28,5 @@ If you learned something from this project and you want like to say thanks, you 
 
 I found the following interesting related resources:
 
-    - https://www.aturingmachine.com/ - site containing a video of an actual physical turing machine ;), explanations and sample algorithms 
-    - https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/ - raspberry pi based turing machine implementation with some background and algorithms.
+- https://www.aturingmachine.com/ - site containing a video of an actual physical turing machine ;), explanations and sample algorithms 
+- https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/ - raspberry pi based turing machine implementation with some background and algorithms.

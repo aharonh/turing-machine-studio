@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was inspired by the classic popular science book by Sir Roger Penrose book *"The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics"*. Specifically, in the chapter on turing machines, there are multiple algorithms listed for the simplest possible variation of Turing Machine that he defined in the book. When I saw the simplicity of the **EUC-1** implementation the **Euclidean algorithm** for finding the **greatest common divisor** as well as the universal turing machine implementation. For now, the repo has only the **EUC-1** implementation and I hope to add more algorithms later on including the above mentioned universal turing machine.
+This project was inspired by the classic popular science book by Sir Roger Penrose *"The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics"*. Specifically, in the chapter on turing machines, there are multiple algorithms listed for the simplest possible variation of Turing Machine that he defined in the book. When I saw the simplicity of the **EUC-1** implementation the **Euclidean algorithm** for finding the **greatest common divisor** as well as the universal turing machine implementation. For now, the repo has only the **EUC-1** implementation and I hope to add more algorithms later on including the above mentioned universal turing machine.
 
 ## Operation instructions
 

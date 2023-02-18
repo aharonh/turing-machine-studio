@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4260"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="text-digit-one.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4262"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="124.16618"
+     inkscape:cy="560.54212"
+     inkscape:window-width="1603"
+     inkscape:window-height="1134"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="mainLayer" />
+  <defs
+     id="defs4257" />
+  <g
+     inkscape:label="Main Layer"
+     inkscape:groupmode="layer"
+     id="mainLayer">
+    <path
+       d="m 1.2476258,7.2847828 v 0 c 0.61304,-0.21907 1.2573,-0.36539 1.83938,-0.65749 0.0712,-0.0354 -0.13176,-0.11985 -0.13123,-0.19923 2.7e-4,-0.0823 0.18706,-0.14525 0.13335,-0.20743 -0.18441,-0.21352 -0.63341,-0.18918 -0.71014,-0.46064 -0.51753,-1.83118 -0.62098,-3.75602 -1.00833,-5.61921998 -0.0159,-0.077 -0.11033,-0.14182 -0.18865,-0.140760000462 C 1.1016058,0.00101282 1.0182358,0.07041282 0.98939583,0.14553282 c -0.35745,0.93053998 -0.72205,1.86530998 -0.9525,2.83527998 -0.0212,0.0889 0.17912,0.1569 0.25373,0.10398 0.23601,-0.16801 0.38709,-0.91493 0.54848,-0.67442 0.40745997,0.60721 0.35030997,1.42345 0.44079997,2.14921 0.0556,0.44503 0.21458,0.95461 -0.005,1.34567 -0.24923,0.4437 -0.85697997,0.5543 -1.24670997,0.88212 -0.0426,0.036 -0.032,0.12118 -8e-4,0.16774 0.0934,0.1397 0.19156,0.31565 0.35402,0.35957"
+       style="fill:#000000;stroke-width:0.264583"
+       id="textDigitOne"
+       sodipodi:nodetypes="csccccccccccccccc" />
+  </g>
+</svg>

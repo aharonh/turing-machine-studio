@@ -4,8 +4,8 @@
   "description": "The turing machine studio UI.",
   "private": true,
   "scripts": {
-    "start": "webpack serve --open --config webpack.dev.js --no-open",
-    "build": "webpack --config webpack.dev.js",
+    "start": "npx webpack serve --open --config webpack.dev.js --no-open",
+    "build": "npx webpack --config webpack.dev.js",
     "test": "npx jest --verbose"
   },
   "author": "Aharon Haravon",
